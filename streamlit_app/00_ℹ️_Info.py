@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set Streamlit page config
-st.set_page_config(page_title="Replica Health Supply Chain Data Modelling",page_icon="📦", layout="wide")
+st.set_page_config(page_title="Supply Chain Data Modelling",page_icon="📦", layout="wide")
 
 # Title of the app
 st.title("Replica Health LTD: Supply Chain Data Modelling")
