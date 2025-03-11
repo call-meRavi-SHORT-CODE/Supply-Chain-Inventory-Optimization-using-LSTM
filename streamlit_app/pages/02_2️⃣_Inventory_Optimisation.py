@@ -14,23 +14,34 @@ st.sidebar.markdown(
     """
     ### What Are We Doing Here?
     This tool performs the following calculations to optimise inventory:
-    
-    1️⃣ **Economic Order Quantity (EOQ):**
-       - Determines the optimal order quantity that minimises total inventory costs (ordering + holding).
-       - Formula:  
-         $$EOQ = \sqrt{\\frac{2 \times Demand \times Ordering\\ Cost}{Holding\\ Cost}}$$
-    
-    2️⃣ **Safety Stock:**
-       - Calculates extra stock to hold to prevent stockouts during demand or lead time variability.
-       - Formula:  
-         $$Safety\\ Stock = Z \times Std\\ Dev\\ of\\ Demand \times \sqrt{Lead\\ Time}$$
-       - Here, **Z** is a service level factor (default: 95% confidence).
-    
-    3️⃣ **Monte Carlo Simulation:**
-       - Uses simulated random demand data to predict future variations in demand.
-       - Outputs a histogram showing the distribution of simulated average demand.
     """
 )
+
+st.sidebar.markdown("#### 1️⃣ **Economic Order Quantity (EOQ):**")
+st.sidebar.markdown(
+    """
+    - Determines the optimal order quantity that minimises total inventory costs (ordering + holding).
+    """
+)
+st.sidebar.latex(r"EOQ = \sqrt{\frac{2 \times Demand \times Ordering\ Cost}{Holding\ Cost}}")
+
+st.sidebar.markdown("#### 2️⃣ **Safety Stock:**")
+st.sidebar.markdown(
+    """
+    - Calculates extra stock to hold to prevent stockouts during demand or lead time variability.
+    - Here, **Z** is a service level factor (default: 95% confidence).
+    """
+)
+st.sidebar.latex(r"Safety\ Stock = Z \times Std\ Dev\ of\ Demand \times \sqrt{Lead\ Time}")
+
+st.sidebar.markdown("#### 3️⃣ **Monte Carlo Simulation:**")
+st.sidebar.markdown(
+    """
+    - Uses simulated random demand data to predict future variations in demand.
+    - Outputs a histogram showing the distribution of simulated average demand.
+    """
+)
+
 
 # Load dataset
 df = pd.read_csv("assets/data/pharmaceutical_supply_chain.csv", parse_dates=["Date"])
