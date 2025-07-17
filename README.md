@@ -8,8 +8,7 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/)
-[![Lida](https://img.shields.io/badge/Lida-%23FFD700.svg?style=flat&logo=python&logoColor=white)](https://microsoft.github.io/lida/)
-[![Cohere](https://img.shields.io/badge/Cohere-%2364D5B1.svg?style=flat&logo=cohere&logoColor=white)](https://cohere.ai/)
+
 
 
 # 📦 Supply Chain Data Modelling Streamlit App
