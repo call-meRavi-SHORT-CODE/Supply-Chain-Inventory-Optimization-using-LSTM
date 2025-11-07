@@ -1,12 +1,9 @@
 import streamlit as st
 
-# Set Streamlit page config
 st.set_page_config(page_title="Supply Chain Data Modelling",page_icon="📦", layout="wide")
 
-# Title of the app
 st.title("Replica Health LTD: Supply Chain Data Modelling")
 
-# Description of the App
 st.markdown("""
 Replica Health Supply Chain Data Modelling is a powerful analytical tool designed to explore, 
 visualise, and model data specific to supply chain management in the healthcare and pharmaceutical industry. 
