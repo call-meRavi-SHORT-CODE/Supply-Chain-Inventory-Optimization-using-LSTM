@@ -19,7 +19,7 @@ This tool enables **forecasting**, **inventory optimization**, **customer/produc
 
 ---
 
-## 🚀 Features at a Glance
+##  Features at a Glance
 
 ### 🔮 1. Forecast Future Demand (LSTM Model)
 - **Purpose**: Predict future demand using historical sales.
